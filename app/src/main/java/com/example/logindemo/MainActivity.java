@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Metodo verificar usuario e senha
     private void Validar(String usuario, String senha) {
-        if(usuario == "admin" && senha == "1234") {
+        if((usuario.equals("admin")) && (senha.equals("1234"))) {
             Intent intent = new Intent(MainActivity.this, SegundaTela.class);
             startActivity(intent);
 
