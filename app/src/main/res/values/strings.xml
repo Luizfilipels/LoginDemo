@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LoginDemo</string>
+    <string name="txt_Login_Success">Login com Sucesso!!</string>
 </resources>
